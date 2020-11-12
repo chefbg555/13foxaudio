@@ -10,10 +10,10 @@ export default class Landing extends Component {
     return (
       <FadeIn delay='350' transitionDuration='2500'>
         <div className="homefade">
-         <span className='foxaudio'> 13FOXAUDIO</span>
+         <span className='foxaudio'>13FOXAUDIO</span>
           <Link to='/aboutus'><img src={logo} height='90%' width='90%' className="logopicture"/></Link>
         </div>
-        <Navbar/>
+        <Navbar className='navlanding'/>
       </FadeIn>
        
     )

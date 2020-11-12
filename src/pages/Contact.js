@@ -21,7 +21,7 @@ export default class Contact extends Component {
               method="POST"
             >
               <div className="landing-contact-wrapper-from-input">
-                <div className="form-input">
+                <div className="form-input">c
                   <label htmlFor="your-email">Name</label>
                     <input
                       id="contact-name"

@@ -2,6 +2,7 @@ body {
   background-color:black;
 }
 
+
 .homefade{
   margin-top:5%;
   display: flex;
@@ -135,3 +136,42 @@ label{
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .homefade{ 
+    display:flex;
+    justify-content: ;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 15%;
+    margin-top:10%;
+    margin-bottom:20%;
+  }
+  .homefade span{
+    margin-left:16%;
+  }
+  .logopicture{
+    
+    margin-top:18%;
+    height:100%;
+    width:100%;
+  }
+
+}
+ 
+ 
+ @media only screen and (max-width: 600px) {
+ 
+ 
+   .foxaudio{
+     font-size: 5rem;
+    
+   }
+   .landingbuttons span{
+     font-size: 1.5rem;
+     margin-top:10px;
+   }
+  
+ }
+ 
