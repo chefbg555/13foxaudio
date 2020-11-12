@@ -7,7 +7,7 @@ const Navbar = props => {
     <nav className="landingbuttons">
       <NavLink to="/aboutus"> <span>About us</span></NavLink>
       <NavLink to="/contact"><span>Contact</span></NavLink>
-      <NavLink to="/content"><span>Content</span></NavLink>
+      <NavLink to="/content"><span className='bottom-marg'>Content</span></NavLink>
 
     </nav>
   )
